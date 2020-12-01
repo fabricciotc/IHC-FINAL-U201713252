@@ -29,4 +29,10 @@ Tenemos un diseño responsvie con Media Queryes para cada tamaño de pantalla
 
 Tenemos un diseño minimalista en la web, con espaciado y pocos elmentos para no sobrecargar.
 
+#### Tipografia
+
+Las tipografias usadas son: Poppins y Lato, extraidas desde google FONTS, asi como Font-Awesome.
+
 ##### Sitio web publicado en: https://fabricciotc.github.io/IHC-FINAL-U201713252/
+
+##### SECCION: SV41 - IHC
