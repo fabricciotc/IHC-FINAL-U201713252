@@ -1,0 +1,134 @@
+/* ESTILO DE NAVBAR */
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  }
+  
+  .nav {
+      padding: 0px 20px 0px 20px;
+    height: 60px;
+    width: 100%;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       box-shadow: 0 20px 40px -6px rgba(0, 0, 0, 0.55);
+    background-color: white;
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .nav > .nav-links>div{
+      display: flex;
+      height: 100%;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    font-size: 22px;
+    color: #fff;
+    padding: 5px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+
+  .nav > .nav-links {
+    display: inline;
+    font-size: 14px;
+    display: block;
+    height: 100%;
+  }
+  .nav > .nav-links>div > a {
+    display: inline-block;
+    margin: 0px 5px 0px 5px;
+    padding: 15px 10px 15px 10px;
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    height: fit-content;
+    align-self: center;
+
+    color: #191919;
+    cursor: pointer;
+  }
+  
+  .nav > .nav-links>div > a:hover {
+    color:green;
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  .izq{
+    float: left !important;
+}
+.der{
+    float: right !important;
+}
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .izq{
+        float:none !important;
+    }
+    .der{
+        float: none !important;
+    }
+    .nav > .nav-links>div{
+        display: block;
+        height: auto;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 13px;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #191919;
+    }
+
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: lightgray;;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    }
+    .nav > .nav-links>div> a {
+      display: block;
+      width: 100%;
+      max-width: 200px;
+    }
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+  }
+/* FIN DEL ESTILO DEL NAVBAR */
