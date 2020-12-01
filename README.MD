@@ -33,6 +33,10 @@ Tenemos un diseño minimalista en la web, con espaciado y pocos elmentos para no
 
 Las tipografias usadas son: Poppins y Lato, extraidas desde google FONTS, asi como Font-Awesome.
 
+#### Iconos
+
+Los iconos usados son de Font-Awesome
+
 ##### Sitio web publicado en: https://fabricciotc.github.io/IHC-FINAL-U201713252/
 
 ##### SECCION: SV41 - IHC
