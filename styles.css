@@ -151,10 +151,11 @@
 
 
 .portada{
-  background-image: url(./imagenes/hero.jpg) !important;
+  background-image: url(https://www.bing.com/images/blob?bcid=TtZHWDmNgBoCgQ) !important;
   height: 540px;
   border-radius: 0px;
   text-align: center;
+  background-size: cover;
   padding: 10% !important;
   border-radius: 0px !important;
 }

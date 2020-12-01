@@ -1,6 +1,8 @@
 # Landing Page - MALI
 ##### Pagina web diseñada por Fabriccio Tornero | U201713252
 
+Esta pagina web realiza con los colores pedidos a fin de la tematica, Se utilizo Boostrap como CSS asi como iamgenes locales y externas
+
 ### HEURISTICAS REALIZADAS
 
 #### Color
